@@ -1,5 +1,5 @@
 <?php 
-    $server = 'localhost';
+    $server = 'ns1.dns-parking.com';
     $database = 'u688267941_diacogt';
     $username = 'u688267941_diacogt';
     $password = 'Minnie11.';
