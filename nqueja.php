@@ -87,7 +87,7 @@
         </div>
         <!-------------------------------------------------------------->
         <br>   
-        <input type="submit" value="Agregar">
+        <input  value="Agregar">
         </div>
         <?php if(!empty($message)): ?>
             <p> <?= $message ?></p>
