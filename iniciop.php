@@ -12,7 +12,7 @@
 <body>
   <?php require 'partials/headerp.php'?>
     <section>
-          
+    <img src="img/vision.png"> 
     </section>
   <br><a href="signoff.php"> Logout </a>
 </body>

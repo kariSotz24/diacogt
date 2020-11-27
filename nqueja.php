@@ -45,7 +45,7 @@
     <div>
         <!----------------Comercio-------------------->
         <br><div class="col-md-3 mb-3 align-center">
-            <label>Comercio:</label>
+            <label></label>
             <input class="form-control" id="validationDefault03" name="nom_comercio" placeholder="Escriba título" required> 
         </div>
         <!---------------Departamento------------------------------------>
@@ -67,8 +67,8 @@
         </select>
         </div>
         <!-------------Descripcion de la queja --------------------------------->
-        <br><div class="col-md-3 mb-3">
-            <label>Comercio:</label>
+        <div class="col-md-3 mb-3">
+            <label></label>
             <input class="form-control" id="validationDefault03" name="desc_queja" placeholder="Escriba queja" required> 
         </div>
         <!-------------------------------------------------------------->

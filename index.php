@@ -29,14 +29,9 @@
   <?php if(!empty($user)): ?>
   <?php require 'iniciop.php'?>
   <?php else: ?>
-
   <!-- Ingreso de usuario no logueado -->
   <?php require 'partials/header.php'?>
-  <section>
-
- 
-  <section>
-  
+    <img src="img/vision.png">   
   <!---->
   <?php endif; ?>
 </body>
