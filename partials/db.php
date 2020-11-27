@@ -1,8 +1,8 @@
 <?php 
     $conn = mysqli_connect(
-        'localhost',
-        'root',
-         '',
-        'diacogt'
+        'sql214.main-hosting.eu',
+        'u688267941_diacogt',
+         'Minnie14.',
+        'u688267941_diacogt'
     );
 ?>
