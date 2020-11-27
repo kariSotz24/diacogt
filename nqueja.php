@@ -82,12 +82,12 @@
         <!-------------------------------------------------------------->
         <br><div class="col-md-3 mb-3">
         <label>Email (*opcional): </label>
-            <input class="form-control" id="validationDefault03" name="email_respuesta" placeholder="Escriba email">
+            <input type="text" class="form-control" id="validationDefault03" name="email_respuesta" placeholder="Escriba email">
             <label>(Si desea que le demos seguimiento por favor ingrese su correo.)</label>
         </div>
         <!-------------------------------------------------------------->
         <br>   
-        <input  value="Agregar">
+        <input type="submit" value="Agregar">
         </div>
         <?php if(!empty($message)): ?>
             <p> <?= $message ?></p>
