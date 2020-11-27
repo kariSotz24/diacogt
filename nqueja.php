@@ -69,19 +69,19 @@
         </select>
         </div>
         <!-------------Descripcion de la queja --------------------------------->
-        <label>Queja: </label>
         <div class="col-md-3 mb-3">
+        <label>Queja: </label>
             <label></label>
             <input class="form-control" id="validationDefault03" name="desc_queja" placeholder="Escriba queja" required> 
         </div>
         <!-------------------------------------------------------------->
-        <label>Fecha: </label>
         <br><div class="col-md-3 mb-3">
+        <label>Fecha: </label>
             <input class="form-control" type="date" name="fecha_queja" placeholder="Escriba fecha">
         </div>
         <!-------------------------------------------------------------->
-        <label>Email (*opcional): </label>
         <br><div class="col-md-3 mb-3">
+        <label>Email (*opcional): </label>
             <input class="form-control" id="validationDefault03" name="email_respuesta" placeholder="Escriba email">
             <label>(Si desea que le demos seguimiento por favor ingrese su correo.)</label>
         </div>
