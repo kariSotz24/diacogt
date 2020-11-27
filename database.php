@@ -1,5 +1,5 @@
 <?php 
-    $server = 'sql214.main-hosting.eu';
+    $server = '194.5.156.43';
     $database = 'u688267941_diacogt';
     $username = 'u688267941_diacogt';
     $password = 'Minnie11.';
