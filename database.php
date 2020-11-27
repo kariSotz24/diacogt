@@ -1,8 +1,8 @@
 <?php 
     $server = 'sql214.main-hosting.eu';
+    $database = 'u688267941_diacogt';
     $username = 'u688267941_diacogt';
     $password = 'Minnie14.';
-    $database = 'u688267941_diacogt';
 
     try {
     //Variable de conexion: Almacenar la bd
