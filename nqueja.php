@@ -45,11 +45,12 @@
     <div>
         <!----------------Comercio-------------------->
         <br><div class="col-md-3 mb-3 align-center">
-            <label></label>
+            <label>Comercio: </label>
             <input class="form-control" id="validationDefault03" name="nom_comercio" placeholder="Escriba título" required> 
         </div>
         <!---------------Departamento------------------------------------>
         <br><div class="col-md-3 mb-3">
+        <label>Departamento: </label>
         <select class="custom-select" style="width: 300px" name="id_depto" required>
         <?php 
         while($datosdepto = mysqli_fetch_array($querydep)){ ?>
@@ -59,6 +60,7 @@
         </div>
         <!---------------Municipio------------------------------------>
         <br><div class="col-md-3 mb-3">
+        <label>Municipio: </label>
         <select class="custom-select" style="width: 300px" name="id_municipio" required>
         <?php 
         while($datosmuni = mysqli_fetch_array($querymun)){ ?>
@@ -67,17 +69,21 @@
         </select>
         </div>
         <!-------------Descripcion de la queja --------------------------------->
+        <label>Queja: </label>
         <div class="col-md-3 mb-3">
             <label></label>
             <input class="form-control" id="validationDefault03" name="desc_queja" placeholder="Escriba queja" required> 
         </div>
         <!-------------------------------------------------------------->
+        <label>Fecha: </label>
         <br><div class="col-md-3 mb-3">
             <input class="form-control" type="date" name="fecha_queja" placeholder="Escriba fecha">
         </div>
         <!-------------------------------------------------------------->
+        <label>Email (*opcional): </label>
         <br><div class="col-md-3 mb-3">
             <input class="form-control" id="validationDefault03" name="email_respuesta" placeholder="Escriba email">
+            <label>(Si desea que le demos seguimiento por favor ingrese su correo.)</label>
         </div>
         <!-------------------------------------------------------------->
         <br>   
