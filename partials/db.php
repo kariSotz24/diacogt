@@ -1,8 +1,8 @@
 <?php 
     $conn = mysqli_connect(
-        'ns1.dns-parking.com',
+        'sql214.main-hosting.eu',
         'u688267941_diacogt',
-        'Minnie11.'
+        'Minnie11.',
         'u688267941_diacogt'
     );
 ?>

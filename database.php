@@ -1,7 +1,7 @@
 <?php 
-    $server = 'ns1.dns-parking.com';
-    $database = 'u688267941_diacogt';
+    $server = 'sql214.main-hosting.eu';
     $username = 'u688267941_diacogt';
+    $database = 'u688267941_diacogt';
     $password = 'Minnie11.';
 
     try {
