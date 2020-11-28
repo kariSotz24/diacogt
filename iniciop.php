@@ -15,5 +15,8 @@
     <img src="img/vision.png"> 
     </section>
   <br><a href="signoff.php"> Logout </a>
+  <a href="registro.php">
+                <button type="button" class="btn btn-outline-dark" >Añadir usuario</button>
+              </a>
 </body>
 </html>
